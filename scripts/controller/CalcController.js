@@ -219,7 +219,7 @@ class CalcController {
 
 		this.displayCalc = lastNumber;
 
-		if (this.displayCalc.length > 12) {
+		if (this.displayCalc.length > 10) {
 			let f = this.displayCalc;
 			let format = f.substring(0, 10);
 			this.displayCalc = format;
@@ -374,6 +374,10 @@ class CalcController {
 	}
 
 	set displayCalc(value) {
+		// if (value.toString().length > 10) {
+		// 	// this.setError();
+		// 	return false;
+		// }
 		this._displayCalcEl.innerHTML = value;
 	}
 
