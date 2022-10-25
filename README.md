@@ -1,2 +1,5 @@
 # calculadora-clone
 Projeto de estudo Calculadora Clone desenvolvido no curso de Javascript
+
+Calculadora com display de 10 dígitos e com som para as teclas. Para ativar o som basta clicar duas vezes sobre o botão AC.
+![Calculadora](https://firebasestorage.googleapis.com/v0/b/hcode-com-br.appspot.com/o/calculadora-hcode.jpg?alt=media&token=5406aa3f-b965-401c-9b4e-654609c78b33)
